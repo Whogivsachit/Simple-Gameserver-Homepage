@@ -1,8 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
-  // content: ["./src/**/*.{html,js,php}"],
-  content: ["./dynamic/**/*.{html,js,php}", "./static/**/*.{html,js,php}"],
+  content: ["./src/**/*.{html,js,php}"],
   presets: [],
   darkMode: 'class', // or 'class'
   theme: {
