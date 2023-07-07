@@ -10,9 +10,9 @@
     <br />
     <a href="https://gamehomepage.ascienth.com">View Demo</a>
     ·
-    <a href="https://github.com/Whogivsachit/Simple-GameServer-HomePage/issues">Report Bug</a>
+    <a href="https://github.com/Whogivsachit/Simple-Gameserver-Homepage/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Whogivsachit/Simple-GameServer-HomePage/issues">Request Feature</a>
+    <a href="https://github.com/Whogivsachit/Simple-Gameserver-Homepage/issues">Request Feature</a>
   </p>
 </div>
 
@@ -29,9 +29,19 @@ __The static version__ of our website is built with simple HTML. It provides a s
 On the other hand, __The dynamic version__ takes your experience a step further. It dynamically retrieves and displays information from a remote API, ensuring that the content is always up-to-date. This version is perfect if you're looking for real-time updates on staff and server details, allowing you to stay informed and connected.
 
 
-## License
+### How To Use/Install
+To download and use this project, you can download a release package from the GitHub repository. Follow these steps:
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+1. Go to the [Releases](https://github.com/Whogivsachit/Simple-Gameserver-Homepage/releases) page of the repository.
+
+2. Look for the latest release version and click on it.
+
+3. On the release page, you will find a list of downloadable assets. Download the appropriate package for your operating system or desired version.
+
+4. Once the package is downloaded, extract it to a directory of your choice.
+
+5. Choose between dynamic and static, You can read the differences between the two above.
+
 
 ## Contact
 
