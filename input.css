@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* ---------- Other ---------- */
+
+.slanted{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #18191E;
+    background: linear-gradient(190deg, #18191E);
+    box-sizing: border-box;
+    padding: 30px;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+.slanted:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(1deg);
+}
+
+/* ---------- Animations ---------- */
+
+#header, nav {
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+#title, #moto {
+  position: relative;
+  animation: bounce;
+  animation-duration: 2s;
+  z-index: 2;
+}
